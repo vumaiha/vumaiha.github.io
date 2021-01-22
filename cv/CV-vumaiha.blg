@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: CV-vumaiha.aux
+The style file: plainnatcv.bst
+Database file #1: pubs.bib
+You've used 19 entries,
+            2768 wiz_defined-function locations,
+            706 strings with 8872 characters,
+and the built_in function-call counts, 7714 in all, are:
+= -- 674
+> -- 468
+< -- 14
++ -- 158
+- -- 139
+* -- 534
+:= -- 1193
+add.period$ -- 65
+call.type$ -- 19
+change.case$ -- 102
+chr.to.int$ -- 19
+cite$ -- 38
+duplicate$ -- 340
+empty$ -- 658
+format.name$ -- 172
+if$ -- 1646
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 6
+newline$ -- 108
+num.names$ -- 80
+pop$ -- 244
+preamble$ -- 1
+purify$ -- 83
+quote$ -- 0
+skip$ -- 306
+stack$ -- 0
+substring$ -- 84
+swap$ -- 34
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 209
+warning$ -- 0
+while$ -- 63
+width$ -- 0
+write$ -- 253
