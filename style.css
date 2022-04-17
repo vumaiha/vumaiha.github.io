@@ -237,7 +237,6 @@ li a.active {
 	margin: 0px;
 	/* without this, it adds some extra padding on the left for some reason*/
 	padding-left: 0px;
-	
 }
 
 #text li {
