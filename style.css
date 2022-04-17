@@ -62,18 +62,23 @@ hr {
 }
 
 #header{
-	height:120px;
+	display: flex;
+/*	height:120px; */
 	margin-top: 50px;
 	font-family: Garamond, serif;
 	color: #580000;
 }
 
+#header #info {
+	display: flex;
+	flex-direction: column;
+}
 
-#header #name {
+#header #info #name {
 	font-size: 2.7em;
 }
 
-#header #rest{
+#header #info #rest{
 	font-size: 1.2em;
 	line-height: 120%;
 }
@@ -96,6 +101,7 @@ hr {
 #menu ul{
 	display: flex;
 	flex-direction:row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	font-family: Georgia;
 	font-size:1.1em;
@@ -200,6 +206,7 @@ li a.active {
 .section-container{
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	/* gap between header and text*/
 	gap: 16px
 }
@@ -207,6 +214,7 @@ li a.active {
 .text-block{
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	/* gap between texts like paragraph and paragraph*/
 	gap: 8px;
 	/* This adds the padding immediately in, so you dont have to add that seperately on
