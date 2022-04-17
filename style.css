@@ -19,7 +19,7 @@ a:link {
 a:active {
     color: #0000C1;
 	text-decoration: none
-} 
+}
 
 a:visited {
 	color: #000050;
@@ -134,7 +134,7 @@ li a.active {
     color: white;
 }
 
-#current a { 
+#current a {
 	background-color: #580000;
     color:  #F5ECC7;
 }
@@ -155,15 +155,15 @@ li a.active {
 	margin: 0px;
 	/*padding: 0px; */
 	align: center;
-	text-align: justify; 
+	text-align: justify;
 	border: 3px double #580000;
 	color: #580000;
 	background-color: #FFEFD9;
 
 	/*this way you dont have to add the margin-left on all of the fonts.*/
-	padding: 32px;
+	padding: 16px;
 	/* gap between sections*/
-	gap:48px
+	gap:32px
 }
 
 /* You are not using this*/
@@ -183,19 +183,19 @@ li a.active {
 	/* You don't need this anymore because we have the padding on text*/
 	/*margin-left: 1em;*/
 	font-size:1.2em;
-	font-weight: normal;
-	
+	font-weight: bold;
+
 	/*height: 15px;*/
 }
 
 /* You are not using this*/
-/*
+
 #text h3 {
 	text-align:left;
-	margin-left: 1.5em;
+	margin: 0px;
 	font-size:1em;
 	font-weight: normal;
-}*/
+}
 
 .section-container{
 	display: flex;
@@ -229,14 +229,14 @@ li a.active {
 #text ul {
 	display: inline-block;
 	list-style-type:circle;
-	line-height: 1.2em; 
+	line-height: 120%;
     /* text-block makes all the padding now */
     /*padding-left: 3em;
     padding-right: 3em;*/
 	/* this gets rid of the problem that you had*/
 	margin: 0px;
 	/* without this, it adds some extra padding on the left for some reason*/
-	padding-left: 0px;
+	padding-left: 3px;
 }
 
 #text li {
@@ -244,6 +244,11 @@ li a.active {
 	/*height:1.2em;*/
 	/* this gets rid of the problem that you had*/
 	margin: 0px;
+	padding: 3px;
+}
+
+#text li p {
+	padding: 6px;
 }
 
 #text ul.a {
@@ -262,7 +267,7 @@ list-style-type:circle;
 	line-height: 1.2em;
 	margin-left: 1.5em;
 }
-	
+
 #text li.b {
 	/*display:block;*/
 	/*height:1.2em;*/
@@ -281,7 +286,7 @@ height: 50px;
 }
 
 #footer {
- 
+
     position: absolute;
     bottom: 0;
     height: 50px;
