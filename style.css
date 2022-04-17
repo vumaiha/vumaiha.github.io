@@ -40,6 +40,16 @@ a: inactive{
 
 }
 
+@media screen and (max-width: 800px) {
+  #outline {
+		display: flex;
+		flex-direction: column;
+		min-height: 100%;
+		margin: 0 auto;
+		position:relative;
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
 
 body {
   color: #000;
