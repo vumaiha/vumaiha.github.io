@@ -162,7 +162,8 @@ li a.active {
 
 	/*this way you dont have to add the margin-left on all of the fonts.*/
 	padding: 32px;
-	gap:32px
+	/* gap between sections*/
+	gap:48px
 }
 
 /* You are not using this*/
@@ -199,12 +200,14 @@ li a.active {
 .section-container{
 	display: flex;
 	flex-direction: column;
+	/* gap between header and text*/
 	gap: 16px
 }
 
 .text-block{
 	display: flex;
 	flex-direction: column;
+	/* gap between texts like paragraph and paragraph*/
 	gap: 8px;
 	/* This adds the padding immediately in, so you dont have to add that seperately on
 	p, h2, ul, etc. */
